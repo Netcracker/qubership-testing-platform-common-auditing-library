@@ -24,7 +24,7 @@ mvn -P github clean install
 ```
 
 In RAM Service, Common Auditing Library is used in Main.java, the following way:
-1. Annotations are imported 
+1. Annotations are imported
 ```java
 import org.qubership.atp.common.auditing.annotation.EnableAtpAuditing;
 import org.springframework.data.mongodb.config.EnableMongoAuditing;
@@ -45,7 +45,7 @@ import org.springframework.data.mongodb.config.EnableMongoAuditing;
 @EnableAtpAuditing
 ```
 
-This auditing is needed in RAM Service, because it stores and retrieves log records to/into Mongo Database,
-so there is a task to track user activity against Mongo Database, the same way as it is tracked in other Qubership 
-Testing Platform Services (for example, Environments Service, ITF-Executor Service, ITF-Lite Service) against 
-PostgreSQL databases they use. 
+This auditing is needed in RAM Service, because it stores and retrieves log records to/from Mongo Database,
+so there is a task to track user activity against Mongo Database, the same way as it is tracked in other Qubership
+Testing Platform Services (for example, Environments Service, ITF-Executor Service, ITF-Lite Service) against
+PostgreSQL databases they use.
