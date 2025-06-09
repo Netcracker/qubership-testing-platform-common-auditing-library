@@ -10,14 +10,13 @@
 
     <groupId>org.qubership.atp.common.auditing</groupId>
     <artifactId>qubership-atp-common-auditing</artifactId>
-    <version>${revision}</version>
+    <version>0.0.7-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>atp-common-auditing-mongo</module>
     </modules>
 
     <properties>
-        <revision>0.0.7-SNAPSHOT</revision>
         <java.version>21</java.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -26,8 +25,6 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <console.encoding>UTF-8</console.encoding>
-        <scm.revision>local_build</scm.revision>
-
         <spring.boot.version>2.7.18</spring.boot.version>
         <spring.cloud.version>2021.0.8</spring.cloud.version>
         <ch.qos.logback.version>1.2.12</ch.qos.logback.version>
@@ -37,17 +34,12 @@
         <biz.paluch.logging.version>1.14.1</biz.paluch.logging.version>
         <commons-lang.version>2.6</commons-lang.version>
         <lombok.version>1.18.30</lombok.version>
-
         <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>
-        <maven.pmd.plugin.version>3.8</maven.pmd.plugin.version>
-        <pmd.version>7.0.0</pmd.version>
         <maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
-        <spotbugs.maven.plugin.version>4.7.3.0</spotbugs.maven.plugin.version>
 
         <slf4j.version>1.7.25</slf4j.version>
 
-        <atp.codechecks.version>1.1</atp.codechecks.version>
-        <atp.auth.version>1.2.59-SNAPSHOT</atp.auth.version>
+        <atp.auth.version>1.2.60</atp.auth.version>
     </properties>
 
     <name>${project.groupId}:${project.artifactId}</name>
@@ -69,7 +61,7 @@
     </developers>
     <scm>
         <connection>scm:git:https//github.com/Netcracker/qubership-testing-platform-common-auditing-library.git</connection>
-        <developerConnection>scm:git:https://github.com:Netcracker/qubership-testing-platform-common-auditing-library.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/Netcracker/qubership-testing-platform-common-auditing-library.git</developerConnection>
         <url>scm:git:https://github.com/Netcracker/qubership-testing-platform-common-auditing-library/tree/main</url>
     </scm>
 
