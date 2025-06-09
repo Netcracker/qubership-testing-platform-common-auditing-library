@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.qubership.atp.common.auditing</groupId>
         <artifactId>qubership-atp-common-auditing</artifactId>
-        <version>0.0.7</version>
+        <version>0.0.8-SNAPSHOT</version>
     </parent>
     <artifactId>atp-common-auditing-mongo</artifactId>
 
