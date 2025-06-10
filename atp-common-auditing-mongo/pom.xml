@@ -5,6 +5,7 @@
         <groupId>org.qubership.atp.common.auditing</groupId>
         <artifactId>qubership-atp-common-auditing</artifactId>
         <version>0.0.7-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>atp-common-auditing-mongo</artifactId>
 
