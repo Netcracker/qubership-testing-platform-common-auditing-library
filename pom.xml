@@ -9,7 +9,7 @@
 
     <groupId>org.qubership.atp.common.auditing</groupId>
     <artifactId>qubership-atp-common-auditing</artifactId>
-    <version>0.0.8-SNAPSHOT</version>
+    <version>0.0.7-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>atp-common-auditing-mongo</module>
