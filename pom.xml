@@ -38,7 +38,7 @@
 
         <slf4j.version>1.7.25</slf4j.version>
 
-        <atp.auth.version>1.2.60</atp.auth.version>
+        <atp.auth.version>1.2.65</atp.auth.version>
     </properties>
 
     <name>${project.groupId}:${project.artifactId}</name>
