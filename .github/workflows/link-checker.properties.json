@@ -1,6 +1,7 @@
 {
   "name": "Qubership Markdown link checker",
   "description": "Check Markdown files for broken links",
+
   "categories": [
     "Automation",
     "utilities"

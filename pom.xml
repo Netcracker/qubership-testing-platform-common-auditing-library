@@ -67,7 +67,7 @@
         <developerConnection>scm:git:https://github.com/Netcracker/qubership-testing-platform-common-auditing-library.git</developerConnection>
         <url>scm:git:https://github.com/Netcracker/qubership-testing-platform-common-auditing-library.git</url>
       <tag>HEAD</tag>
-  </scm>
+    </scm>
 
     <repositories>
         <!-- Maven Central repository for release versions -->
