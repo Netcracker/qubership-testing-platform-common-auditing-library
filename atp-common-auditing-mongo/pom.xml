@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.qubership.atp.common.auditing</groupId>
         <artifactId>qubership-atp-common-auditing</artifactId>
-        <version>0.0.12-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>atp-common-auditing-mongo</artifactId>
@@ -32,17 +32,6 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.junit.vintage</groupId>
-            <artifactId>junit-vintage-engine</artifactId>
-            <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.hamcrest</groupId>
-                    <artifactId>hamcrest-core</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jul-to-slf4j</artifactId>
         </dependency>
@@ -65,10 +54,6 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -110,8 +95,6 @@
                         <artifactId>maven-compiler-plugin</artifactId>
                         <version>${maven.compiler.plugin.version}</version>
                         <configuration>
-                            <source>${maven.compiler.source}</source>
-                            <target>${maven.compiler.target}</target>
                             <annotationProcessorPaths>
                                 <path>
                                     <groupId>org.mapstruct</groupId>
@@ -129,6 +112,7 @@
                                     <version>0.2.0</version>
                                 </path>
                             </annotationProcessorPaths>
+                            <release>${java.version}</release>
                         </configuration>
                     </plugin>
                 </plugins>
