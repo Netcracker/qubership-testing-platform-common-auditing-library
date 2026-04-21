@@ -27,14 +27,14 @@
         <spring.boot.version>2.7.18</spring.boot.version>
         <spring.cloud.version>2021.0.8</spring.cloud.version>
         <ch.qos.logback.version>1.2.13</ch.qos.logback.version>
-        <google.guava.version>32.0.0-jre</google.guava.version>
+        <google.guava.version>32.0.1-jre</google.guava.version>
         <apache.commons>3.12.0</apache.commons>
         <openclover.version>4.2.0</openclover.version>
         <biz.paluch.logging.version>1.14.1</biz.paluch.logging.version>
         <commons-lang.version>2.6</commons-lang.version>
         <lombok.version>1.18.30</lombok.version>
         <tomcat-embed.version>9.0.99</tomcat-embed.version>
-        <undertow.version>2.2.36.Final</undertow.version>
+        <undertow.version>2.2.39.Final</undertow.version>
         <commons-fileupload.version>1.6.0</commons-fileupload.version>
 
         <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>
@@ -42,7 +42,7 @@
 
         <slf4j.version>1.7.25</slf4j.version>
 
-        <atp.auth.version>1.2.74</atp.auth.version>
+        <atp.auth.version>1.2.80</atp.auth.version>
     </properties>
 
     <name>${project.groupId}:${project.artifactId}</name>
@@ -66,7 +66,7 @@
         <connection>scm:git:https//github.com/Netcracker/qubership-testing-platform-common-auditing-library.git</connection>
         <developerConnection>scm:git:https://github.com/Netcracker/qubership-testing-platform-common-auditing-library.git</developerConnection>
         <url>scm:git:https://github.com/Netcracker/qubership-testing-platform-common-auditing-library.git</url>
-      <tag>HEAD</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <repositories>
