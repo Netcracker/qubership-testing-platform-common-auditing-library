@@ -35,7 +35,6 @@
         <biz.paluch.logging.version>1.14.1</biz.paluch.logging.version>
         <commons-lang.version>3.20.0</commons-lang.version>
         <lombok.version>1.18.46</lombok.version>
-        <!-- <tomcat-embed.version>9.0.99</tomcat-embed.version> -->
         <undertow.version>2.3.21.Final</undertow.version>
         <commons-fileupload.version>1.6.0</commons-fileupload.version>
         <httpclient5.version>5.4.4</httpclient5.version>
@@ -283,7 +282,7 @@
             <dependency>
                 <groupId>org.junit.vintage</groupId>
                 <artifactId>junit-vintage-engine</artifactId>
-                <version>5.10.5</version>
+                <version>5.12.2</version>
                 <scope>test</scope>
                 <exclusions>
                     <exclusion>
@@ -297,21 +296,6 @@
                 <artifactId>atp-auth-models</artifactId>
                 <version>${atp.auth.version}</version>
             </dependency>
-            <!-- <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-el</artifactId>
-                <version>${tomcat-embed.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-core</artifactId>
-                <version>${tomcat-embed.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-websocket</artifactId>
-                <version>${tomcat-embed.version}</version>
-            </dependency> -->
             <dependency>
                 <groupId>commons-fileupload</groupId>
                 <artifactId>commons-fileupload</artifactId>
